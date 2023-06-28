@@ -1,0 +1,5 @@
+.
+..
+.git
+libgit2
+nfile.txt
