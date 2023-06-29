@@ -1,0 +1,6 @@
+total 2
+-rw-rw-r-- 1 ciank94fishguider ciank94fishguider_g  28 Jun 28 14:32 nfile.txt
+-rw-rw-r-- 1 ciank94fishguider ciank94fishguider_g   0 Jun 29 07:37 pls.txt
+-rw-rw-r-- 1 ciank94fishguider ciank94fishguider_g 241 Jun 28 15:39 rand
+drwxrwsr-x 4 ciank94fishguider ciank94fishguider_g   4 Jun 28 14:57 simplegit-progit
+-bash: ajflkdajfklj: command not found
