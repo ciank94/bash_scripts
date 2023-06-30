@@ -1,3 +1,28 @@
+commit 94ef62cff5fb108ca56cf9048a230bef5a1e5e70
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Fri Jun 30 16:18:52 2023 +0200
+
+    Modified to recent versions after merges.
+
+commit 506b87b130727014bc0f94ce8f11053fa67552fb
+Merge: e5a3a77 2746907
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Fri Jun 30 16:13:19 2023 +0200
+
+    Merge branch 'testing'
+
+commit 2746907610856576b2a3431601dbb6f4bc876218
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Fri Jun 30 16:12:04 2023 +0200
+
+    Now I am adding a gitlog.txt to testing
+
+commit e5a3a77e63f90a2a2e7ba8431852f881b0639e81
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Fri Jun 30 15:24:02 2023 +0200
+
+    Added gigraph alias to .bashrc
+
 commit 80cd218e437bb971cff0ec05dfbf0d4f02880faf
 Author: Cian Kelly <cianrkelly23@gmail.com>
 Date:   Fri Jun 30 15:13:50 2023 +0200
