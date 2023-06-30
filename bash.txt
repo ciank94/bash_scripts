@@ -22,13 +22,17 @@ alias srjob='ll|grep barent && ll|grep simSettings && ll|grep job'
 alias sjob='sbatch job.sh'
 alias irm='rm -i' #ask before removing
 alias idrm='rm -r -i' #delete a directory and ask before
+#alias hd='~/'
 
 #Aliases for git
 alias gist='git status'
 alias giadd='git add'
 alias gico='git commit'
 alias gilog='git log'
+alias gilogs='git log --oneline --decorate'
+alias gigraph='git log --oneline --decorate --graph --all'
 alias gilast='git log -1 HEAD'
+alias gich='git checkout'
 
 #Aliases for compiling and copying the barents file, and simSettings file
 alias cbar='cp -i ~/f90/gin/obj/barent .'
