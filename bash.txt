@@ -34,7 +34,7 @@ alias gisavlog='git log>dummy.txt && mv -i dummy.txt gitlog.txt'
 alias gigraph='git log --oneline --decorate --graph --all'
 alias gilast='git log -1 HEAD'
 alias gich='git checkout'
-
+alias gipush='git push'
 #Aliases for compiling and copying the barents file, and simSettings file
 alias cbar='cp -i ~/f90/gin/obj/barent .'
 alias mbar='ifo && cd ~/f90/gin/obj && make && cd - && ml purge'
