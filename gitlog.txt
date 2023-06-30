@@ -1,0 +1,59 @@
+commit 80cd218e437bb971cff0ec05dfbf0d4f02880faf
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Fri Jun 30 15:13:50 2023 +0200
+
+    Doubled the size of the bash file
+
+commit 7f90fd76879c1cc72a4101e14228c6e58784a58d
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Fri Jun 30 15:00:52 2023 +0200
+
+    Add the bash script
+
+commit 43046f65837442c0d501ab431bc1ce1b2a3cbb07
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Thu Jun 29 07:38:40 2023 +0200
+
+    Added pls.txt
+
+commit 682cb7aa0a60415a092562006e1c2b9bcdb1bd2e
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Wed Jun 28 15:52:21 2023 +0200
+
+    the rand
+
+commit b724c26074079c61936c98b92f895e660f7d7e87
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Wed Jun 28 15:38:22 2023 +0200
+
+    add rand
+
+commit 5a08bb2e150774f1dbc68016cc9685f303ae056a
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Wed Jun 28 15:36:58 2023 +0200
+
+    rm files
+
+commit df40b2115599fd2c6c1b41273061d7d8f4699ef5
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Wed Jun 28 14:45:47 2023 +0200
+
+    skip staged
+
+commit 4beec5c607cbcd1a10c57619f1947f69def0a030
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Wed Jun 28 14:42:56 2023 +0200
+
+    Final commit
+
+commit a5e59b6484dfd231feeea389402dd065e80274f7
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Wed Jun 28 14:33:20 2023 +0200
+
+    this is my first commit
+
+commit 13ba62c8d34f9c17e22b602b3d8ffd559de5ebcb
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Wed Jun 28 14:18:44 2023 +0200
+
+    Initial projectversion
