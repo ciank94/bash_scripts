@@ -60,3 +60,68 @@ if [ -d ~/.bashrc.d ]; then
 fi
 
 unset rc
+# .bashrc
+#Use source ~/.bashrc
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific environment
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
+then
+    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+fi
+export PATH
+
+export LMOD_DISABLE_SAME_NAME_AUTOSWAP=no
+export HDF5_USE_FILE_LOCKING=FALSE
+
+#Aliases for module and job shortcuts
+alias ifo='module purge && module load NCO/5.1.0-foss-2022a netCDF-Fortran/4.6.0-iimpi-2022a imkl/2021.2.0-iimpi-2021a'
+alias sq='squeue|grep ciank94f'
+alias srjob='ll|grep barent && ll|grep simSettings && ll|grep job'
+alias sjob='sbatch job.sh'
+alias irm='rm -i' #ask before removing
+alias idrm='rm -r -i' #delete a directory and ask before
+#alias hd='~/'
+
+#Aliases for git
+alias gist='git status'
+alias giadd='git add'
+alias gico='git commit'
+alias gilog='git log'
+alias gilogs='git log --oneline --decorate'
+alias gilast='git log -1 HEAD'
+alias gich='git checkout'
+
+#Aliases for compiling and copying the barents file, and simSettings file
+alias cbar='cp -i ~/f90/gin/obj/barent .'
+alias mbar='ifo && cd ~/f90/gin/obj && make && cd - && ml purge'
+alias obar='emacs ~/f90/gin/barent.f90'
+alias csim='cp -i ~/f90/sinmod/simSettings.txt .'
+alias osim='emacs ~/f90/sinmod/simSettings.txt'
+alias cjob='cp -i ~/f90/sinmod/job.sh .'
+alias ojob='emacs ~/f90/sinmod/job.sh'
+alias obash='emacs ~/.bashrc'
+alias sobash='source ~/.bashrc'
+alias otrack='emacs ~/f90/gin/track.f90'
+
+#Aliases for initiating interactive mode with variable time allocated
+alias int5='salloc --ntasks=1 --mem-per-cpu=4G --time=00:05:00 --qos=devel --account=nn9828k'
+alias int15='salloc --ntasks=1 --mem-per-cpu=4G --time=00:15:00 --qos=devel --account=nn9828k'
+alias int45='salloc --ntasks=1 --mem-per-cpu=4G --time=00:45:00 --qos=devel --account=nn9828k'
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+if [ -d ~/.bashrc.d ]; then
+	for rc in ~/.bashrc.d/*; do
+		if [ -f "$rc" ]; then
+			. "$rc"
+		fi
+	done
+fi
+
+unset rc
