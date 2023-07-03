@@ -1,3 +1,15 @@
+commit 7408634bf39268aaa6950ff29328365bb2e94553
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Mon Jul 3 11:13:26 2023 +0200
+
+    Changed bash
+
+commit 3398ddfd1794b46c3124ad6de3637e17531e6777
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Mon Jul 3 11:11:44 2023 +0200
+
+    Updated text files
+
 commit c8c0426a19b503e9758e3515680c3625876d0a0f
 Author: Cian Kelly <cianrkelly23@gmail.com>
 Date:   Mon Jul 3 11:10:17 2023 +0200
