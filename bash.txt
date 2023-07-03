@@ -36,6 +36,7 @@ alias gigr='git log --oneline --decorate --graph --all'
 alias gich='git checkout'
 alias gipu='git push'
 alias gibr='git branch'
+alias gidi='git diff'
 
 #Aliases for compiling and copying the barents file, and simSettings file
 alias cbar='cp -i ~/f90/gin/obj/barent .'
