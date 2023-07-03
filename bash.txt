@@ -26,15 +26,17 @@ alias idrm='rm -r -i' #delete a directory and ask before
 
 #Aliases for git
 alias gist='git status'
-alias giadd='git add'
-alias gialad='git add --all'
+#alias giadd='git add'
+alias giad='git add --all'
 alias gico='git commit'
-alias gilog='git log --oneline --decorate'
-alias gisavlog='git log>dummy.txt && mv -i dummy.txt gitlog.txt'
-alias gigraph='git log --oneline --decorate --graph --all'
-alias gilast='git log -1 HEAD'
+alias gilo='git log --oneline --decorate'
+alias gisa='git log>dummy.txt && mv -i dummy.txt gitlog.txt'
+alias gigr='git log --oneline --decorate --graph --all'
+#alias gila='git log -1 HEAD'
 alias gich='git checkout'
-alias gipush='git push'
+alias gipu='git push'
+alias gibr='git branch'
+
 #Aliases for compiling and copying the barents file, and simSettings file
 alias cbar='cp -i ~/f90/gin/obj/barent .'
 alias mbar='ifo && cd ~/f90/gin/obj && make && cd - && ml purge'
