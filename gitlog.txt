@@ -1,3 +1,33 @@
+commit c8c0426a19b503e9758e3515680c3625876d0a0f
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Mon Jul 3 11:10:17 2023 +0200
+
+    New save file for this branch that saves changes in text file.
+
+commit da763ce3ccd3cdd1b690fb7e590d7374b6757ba5
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Mon Jul 3 11:05:06 2023 +0200
+
+    Develop branch used to test the git diff functionality
+
+commit a7686112144af4cf87622cbcd9c67c5f638908c8
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Mon Jul 3 10:29:13 2023 +0200
+
+    Added git diff
+
+commit 3bc5896aa60f70146fab023801402acbf7fdc06c
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Mon Jul 3 10:07:37 2023 +0200
+
+    Cleaned up the git commands to shorten them and include most important
+
+commit 71d63928d4fa7a20f51fd51147a8935d675ab5ac
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Mon Jul 3 09:59:10 2023 +0200
+
+    added to the git log
+
 commit 4d73806b1620edcc397483bf3e8f81f85eaf5f60
 Author: Cian Kelly <cianrkelly23@gmail.com>
 Date:   Mon Jul 3 09:37:19 2023 +0200
