@@ -37,7 +37,7 @@ alias gich='git checkout'
 alias gipu='git push'
 alias gibr='git branch'
 alias gidi='git diff'
-alias gich='git diff master develop>dum|mv -i dum gitdev.txt' 
+alias gide='git diff master develop>dum|mv -i dum gitdev.txt' 
 
 #Aliases for compiling and copying the barents file, and simSettings file
 alias cbar='cp -i ~/f90/gin/obj/barent .'
