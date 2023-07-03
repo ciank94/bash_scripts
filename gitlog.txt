@@ -1,3 +1,27 @@
+commit 4d73806b1620edcc397483bf3e8f81f85eaf5f60
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Mon Jul 3 09:37:19 2023 +0200
+
+    Deleted nonsense file after merging it from other branch
+
+commit 6ec1e72fa422bbf283754d1a8eae44f64cc9e449
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Mon Jul 3 09:31:48 2023 +0200
+
+    Add random file
+
+commit 1dbfacff59ddb5f425a5cd14324bfed62433692e
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Fri Jun 30 16:26:19 2023 +0200
+
+    added gipush
+
+commit 588f684e21bddfcf69188958bb4772e9ce296c7e
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Fri Jun 30 16:23:58 2023 +0200
+
+    Removed useless files and kept important bash commands and gitlogs.
+
 commit 94ef62cff5fb108ca56cf9048a230bef5a1e5e70
 Author: Cian Kelly <cianrkelly23@gmail.com>
 Date:   Fri Jun 30 16:18:52 2023 +0200
