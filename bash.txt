@@ -11,6 +11,7 @@ then
     PATH="$HOME/.local/bin:$HOME/bin:$PATH"
 fi
 export PATH
+export PATH=~/bash_scripts:"$PATH"
 #Note PS1="[\u@\h.SAGA \w]\$"
 PS1="[\A crk_\h \w]€ "
 export LMOD_DISABLE_SAME_NAME_AUTOSWAP=no
@@ -25,6 +26,7 @@ export HISTSIZE=1000
 
 #Aliases for module and job shortcuts
 alias ifo='module purge && module load NCO/5.1.0-foss-2022a netCDF-Fortran/4.6.0-iimpi-2022a imkl/2021.2.0-iimpi-2021a'
+alias gnup='module load gnuplot/5.4.6-GCCcore-12.2.0'
 alias sq='squeue|grep ciank94f'
 alias supd='ll|grep barent && ll|grep simSettings && ll|grep job && ll|grep samp_part'
 alias sjob='sbatch job.sh'
@@ -33,6 +35,7 @@ alias idrm='rm -r -i' #delete a directory and ask before
 #alias hd='~/'
 
 #Aliases for git
+#Todo: Add a git alias that can access github text string:git remote add [local name] git@github.com:ciank94/[remote name].git
 alias gist='git status'
 alias giad='git add --all'
 alias gico='git commit -a -m'
