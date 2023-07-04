@@ -1,3 +1,15 @@
+commit 878be6e93ca030f811404cd5da968144474c20ec
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Mon Jul 3 17:09:32 2023 +0200
+
+    Customized the prompt default using the variable PS1
+
+commit 82406c840a8102715334050b332ff90f8f09ef34
+Author: Cian Kelly <cianrkelly23@gmail.com>
+Date:   Mon Jul 3 11:25:27 2023 +0200
+
+    Updated aliases, especially concerning differences between branches in git.
+
 commit 7408634bf39268aaa6950ff29328365bb2e94553
 Author: Cian Kelly <cianrkelly23@gmail.com>
 Date:   Mon Jul 3 11:13:26 2023 +0200

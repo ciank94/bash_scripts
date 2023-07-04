@@ -12,7 +12,7 @@ then
 fi
 export PATH
 #Note PS1="[\u@\h.SAGA \w]\$"
-PS1="[\A cian_\h \w]\$"
+PS1="[\A crk_\h \w]€ "
 export LMOD_DISABLE_SAME_NAME_AUTOSWAP=no
 export HDF5_USE_FILE_LOCKING=FALSE
 
@@ -26,7 +26,7 @@ export HISTSIZE=1000
 #Aliases for module and job shortcuts
 alias ifo='module purge && module load NCO/5.1.0-foss-2022a netCDF-Fortran/4.6.0-iimpi-2022a imkl/2021.2.0-iimpi-2021a'
 alias sq='squeue|grep ciank94f'
-alias srjob='ll|grep barent && ll|grep simSettings && ll|grep job'
+alias supd='ll|grep barent && ll|grep simSettings && ll|grep job && ll|grep samp_part'
 alias sjob='sbatch job.sh'
 alias irm='rm -i' #ask before removing
 alias idrm='rm -r -i' #delete a directory and ask before
@@ -34,18 +34,17 @@ alias idrm='rm -r -i' #delete a directory and ask before
 
 #Aliases for git
 alias gist='git status'
-#alias giadd='git add'
 alias giad='git add --all'
-alias gico='git commit'
+alias gico='git commit -a -m'
 alias gilo='git log --oneline --decorate'
 alias gisa='git log>dummy.txt && mv -i dummy.txt gitlog.txt'
 alias gigr='git log --oneline --decorate --graph --all'
-#alias gila='git log -1 HEAD'
 alias gich='git checkout'
 alias gipu='git push'
 alias gibr='git branch'
 alias gidi='git diff'
-alias gide='git diff master dev > dummy.txt && mv -i dummy.txt gitdev.txt' 
+alias gide='git diff master dev > dummy.txt && mv -i dummy.txt gitdev.txt'
+
 #Aliases for compiling and copying the barents file, and simSettings file
 alias cbar='cp -i ~/f90/gin/obj/barent .'
 alias mbar='ifo && cd ~/f90/gin/obj && make && cd - && ml purge'
