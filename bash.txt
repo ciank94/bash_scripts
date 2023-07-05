@@ -12,7 +12,8 @@ then
 fi
 export PATH
 export PATH=~/bash_scripts:"$PATH"
-#Note PS1="[\u@\h.SAGA \w]\$"
+#Write a script that will add permissions chmod 755 [file] to any file that is created in bash_scripts
+#Note original PS1="[\u@\h.SAGA \w]\$"
 PS1="[\A crk_\h \w]€ "
 export LMOD_DISABLE_SAME_NAME_AUTOSWAP=no
 export HDF5_USE_FILE_LOCKING=FALSE
@@ -37,16 +38,13 @@ alias idrm='rm -r -i' #delete a directory and ask before
 #Aliases for git
 #Todo: Add a git alias that can access github text string:git remote add [local name] git@github.com:ciank94/[remote name].git
 alias gist='git status'
-alias giad='git add --all'
+alias giad='git add'
 alias gico='git commit -a -m'
-alias gilo='git log --oneline --decorate'
-alias gisa='git log>dummy.txt && mv -i dummy.txt gitlog.txt'
-alias gigr='git log --oneline --decorate --graph --all'
+alias gilo='git log --oneline --decorate --graph --all > gitlog.txt'
 alias gich='git checkout'
 alias gipu='git push'
 alias gibr='git branch'
 alias gidi='git diff'
-alias gide='git diff master dev > dummy.txt && mv -i dummy.txt gitdev.txt'
 
 #Aliases for compiling and copying the barents file, and simSettings file
 alias cbar='cp -i ~/f90/gin/obj/barent .'
