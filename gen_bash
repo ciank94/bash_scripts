@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#Program to create an empty bash script#
+
+#Variables
+echo "Enter name of bash script" #prompt user for filename
+read fname #read filename from user input (keyboard)
+echo "Type a short description of bash script"
+read fpurp
+touch $HOME/bash_scripts/$fname #Generate empty script
+file=$HOME/bash_scripts/$fname #set filename to variable file
+chmod 755 $file #Set permissions open for all users
+time="$(date +"%x %r %Z")" #todays date and time
+
+#File layout:
+echo "#!/bin/bash
+
+#File generated on $time by Cian Kelly (email:cianrkelly23@gmail.com)
+
+#Description:
+#$fpurp ">$file #print name,time, date + shebang with directory for bash script compilation
+
+
+#Open file
+emacs $file
