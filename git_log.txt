@@ -1,5 +1,8 @@
-* 33e891a (HEAD -> master) Added bash_scripts as export path
-* 5e8111a (bash_scripts/master) Only bash scripts in folder now
+* 981da2c (HEAD -> master) Remember to re-add files with edited names
+* 260f0d5 (bash_scripts/master) Changed names of files
+* 010bb9b Added gitlog of commits and cleaned bash.txt
+* 33e891a Added bash_scripts as export path
+* 5e8111a Only bash scripts in folder now
 * ea9ec73 No more development here, just used for saving bash scripts and aliases and so on
 * 878be6e Customized the prompt default using the variable PS1
 * 82406c8 Updated aliases, especially concerning differences between branches in git.
