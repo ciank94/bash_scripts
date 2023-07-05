@@ -1,4 +1,5 @@
-* 23cad15 (HEAD -> master, bash_scripts/master) Added a gen_bash script that generates an empty bash script and makes executable
+* c3750b8 (HEAD -> master, bash_scripts/master) First version of search function for sinmod ssin
+* 23cad15 Added a gen_bash script that generates an empty bash script and makes executable
 * 25c14ea updated aliases
 * 981da2c Remember to re-add files with edited names
 * 260f0d5 Changed names of files

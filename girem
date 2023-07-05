@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#File generated on 07/05/2023 12:17:47 PM CEST by Cian Kelly (email:cianrkelly23@gmail.com)
+
+#Description:
+#Add remote directory to git remotes with a local name and the name on github
+
+#Declare variables
+echo "Enter name of personal remote repository"
+read n_remote
+echo "Enter local name"
+read n_local
+
+#Command
+git remote add $n_local git@github.com:ciank94/$n_remote.git
