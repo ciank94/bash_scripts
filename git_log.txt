@@ -1,0 +1,32 @@
+* 33e891a (HEAD -> master) Added bash_scripts as export path
+* 5e8111a (bash_scripts/master) Only bash scripts in folder now
+* ea9ec73 No more development here, just used for saving bash scripts and aliases and so on
+* 878be6e Customized the prompt default using the variable PS1
+* 82406c8 Updated aliases, especially concerning differences between branches in git.
+* 7408634 Changed bash
+* 3398ddf Updated text files
+* c8c0426 New save file for this branch that saves changes in text file.
+* da763ce Develop branch used to test the git diff functionality
+* a768611 Added git diff
+* 3bc5896 Cleaned up the git commands to shorten them and include most important
+* 71d6392 added to the git log
+* 4d73806 Deleted nonsense file after merging it from other branch
+* 6ec1e72 Add random file
+* 1dbfacf added gipush
+* 588f684 Removed useless files and kept important bash commands and gitlogs.
+* 94ef62c Modified to recent versions after merges.
+*   506b87b Merge branch 'testing'
+|\  
+| * 2746907 Now I am adding a gitlog.txt to testing
+| * 80cd218 Doubled the size of the bash file
+* | e5a3a77 Added gigraph alias to .bashrc
+|/  
+* 7f90fd7 Add the bash script
+* 43046f6 (tag: v2) Added pls.txt
+* 682cb7a the rand
+* b724c26 add rand
+* 5a08bb2 rm files
+* df40b21 skip staged
+* 4beec5c Final commit
+* a5e59b6 this is my first commit
+* 13ba62c Initial projectversion
