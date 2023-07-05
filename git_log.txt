@@ -1,5 +1,7 @@
-* 981da2c (HEAD -> master) Remember to re-add files with edited names
-* 260f0d5 (bash_scripts/master) Changed names of files
+* 23cad15 (HEAD -> master, bash_scripts/master) Added a gen_bash script that generates an empty bash script and makes executable
+* 25c14ea updated aliases
+* 981da2c Remember to re-add files with edited names
+* 260f0d5 Changed names of files
 * 010bb9b Added gitlog of commits and cleaned bash.txt
 * 33e891a Added bash_scripts as export path
 * 5e8111a Only bash scripts in folder now

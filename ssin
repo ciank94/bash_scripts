@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#File generated on 07/05/2023 10:44:44 AM CEST by Cian Kelly (email:cianrkelly23@gmail.com)
+
+#Description:
+#This script is intended to search patterns of text from sinmod and show the relevant files and line numbers
+
+#Read user input
+echo "Enter pattern for search"
+read pattern
+
+#Define directories for searching
+libf90=$HOME/f90/sinmod/libf90
+gin=$HOME/f90/gin
+
+#The search function
+function search_libf90 () {
+    ls -l $libf90|grep -i $pattern
+    return
+}
+function search_gin () {
+    ls -l $gin|grep -i $pattern
+    return
+}
+
+echo "
+Search results for '$pattern' in libf90"
+search_libf90
+
+echo "
+Search results for '$pattern' in gin"
+search_gin
+
+
+
