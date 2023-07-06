@@ -1,4 +1,7 @@
-* c3750b8 (HEAD -> master, bash_scripts/master) First version of search function for sinmod ssin
+* 3ef431e (HEAD -> master, bash_scripts/master) Added search functions for files and text in sinmod (sfsin and stsin respectively
+* 6c50e21 Capitalized readme
+* 9e9256c Added git remote add bash script and readme file
+* c3750b8 First version of search function for sinmod ssin
 * 23cad15 Added a gen_bash script that generates an empty bash script and makes executable
 * 25c14ea updated aliases
 * 981da2c Remember to re-add files with edited names

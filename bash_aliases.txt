@@ -15,11 +15,12 @@ export PATH=~/bash_scripts:"$PATH"
 #Write a script that will add permissions chmod 755 [file] to any file that is created in bash_scripts
 #Note original PS1="[\u@\h.SAGA \w]\$"
 PS1="[\A crk_\h \w]€ "
+SHAREDDIR=/cluster/projects/nn9828k
 export LMOD_DISABLE_SAME_NAME_AUTOSWAP=no
 export HDF5_USE_FILE_LOCKING=FALSE
 
 # Change umask to make directory sharing easier
-umask 0002
+#umask 0002
 # Ignore duplicates in command history and increase
 # history size to 1000 lines
 export HISTCONTROL=ignoredups
@@ -45,6 +46,12 @@ alias gich='git checkout'
 alias gipu='git push'
 alias gibr='git branch'
 alias gidi='git diff'
+
+#Directory shortcut aliases
+alias dsim='cd $SHAREDDIR/Cian_sinmod/tr_sim/'
+alias ddev='cd $HOME/f90/krill_ibm/'
+alias dbas='cd $SHAREDDIR/Cian_sinmod/bash_scripts/'
+alias dsha='cd $SHAREDDIR/'
 
 #Aliases for compiling and copying the barents file, and simSettings file
 alias cbar='cp -i ~/f90/gin/obj/barent .'
