@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#File generated on 07/05/2023 10:44:44 AM CEST by Cian Kelly (email:cianrkelly23@gmail.com)
+#File generated on 05/07/2023 10:44:44 AM CEST by Cian Kelly (email:cianrkelly23@gmail.com)
 
 #Description:
 #Program to create an empty bash script#
@@ -13,7 +13,7 @@ read fpurp
 touch /cluster/projects/nn9828k/Cian_sinmod/bash_scripts/$fname #Generate empty script
 file=/cluster/projects/nn9828k/Cian_sinmod/bash_scripts/$fname #set filename to variable file
 chmod 755 $file #Set permissions open for all users
-time="$(date +"%x %r %Z")" #todays date and time
+time=$(date +'%d.%m.%Y') #todays date and time
 
 #File layout:
 echo "#!/bin/bash
