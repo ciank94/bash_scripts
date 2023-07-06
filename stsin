@@ -1,0 +1,60 @@
+#!/bin/bash
+
+#File generated on 07/06/2023 11:00:34 AM CEST by Cian Kelly (email:cianrkelly23@gmail.com)
+
+#Description:
+#Search for text in sinmod, specifically for names of variables, parameters and functions 
+
+#Read user input
+echo "Enter pattern for search"
+read pattern
+
+#Define directories for searching
+libf90=$HOME/f90/sinmod/libf90
+gin=$HOME/f90/gin
+
+#The search function
+function search_tex_libf90 () {
+    cd $libf90
+    grep -i -n $pattern *.f90
+    cd - > /dev/null
+    return
+}
+function search_tex_gin () {
+    cd $gin
+    grep -i -n $pattern *.f90
+    cd - > /dev/null
+    return
+}
+
+echo "Print results to file (y/n)"
+read savef
+
+if [ "$savef" == y ]; then
+   echo "
+Search results for text: '$pattern' in libf90:
+" > search_${pattern}.txt
+   search_tex_libf90 >> search_${pattern}.txt
+   echo "
+Search results for text: '$pattern' in libf90:
+" >> search_${pattern}.txt
+   search_tex_gin >> search_${pattern}.txt
+elif [ "$savef" == n ]; then
+    echo "
+Search results for text: '$pattern' in libf90:
+"
+    search_tex_libf90
+
+    echo "
+Search results for text: '$pattern' in libf90:
+"
+    search_tex_gin
+
+else
+    echo "
+ERROR: Please enter y or n without quote marks
+"
+fi
+	   
+
+# echo " "

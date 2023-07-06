@@ -24,12 +24,13 @@ function search_gin () {
 }
 
 echo "
-Search results for '$pattern' in libf90"
+Search results for file with '$pattern' in libf90"
 search_libf90
 
 echo "
-Search results for '$pattern' in gin"
+Search results for file with '$pattern' in gin"
 search_gin
 
+echo " "
 
 
