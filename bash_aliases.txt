@@ -11,13 +11,13 @@ then
     PATH="$HOME/.local/bin:$HOME/bin:$PATH"
 fi
 export PATH
-export PATH=~/bash_scripts:"$PATH"
 #Write a script that will add permissions chmod 755 [file] to any file that is created in bash_scripts
 #Note original PS1="[\u@\h.SAGA \w]\$"
 PS1="[\A crk_\h \w]€ "
 SHAREDDIR=/cluster/projects/nn9828k
 export LMOD_DISABLE_SAME_NAME_AUTOSWAP=no
 export HDF5_USE_FILE_LOCKING=FALSE
+export PATH=$SHAREDDIR/Cian_sinmod/bash_scripts/:"$PATH" #Export a directory for user bash scripts
 
 # Change umask to make directory sharing easier
 #umask 0002
@@ -48,7 +48,7 @@ alias gibr='git branch'
 alias gidi='git diff'
 
 #Directory shortcut aliases
-alias dsim='cd $SHAREDDIR/Cian_sinmod/tr_sim/'
+alias dsim='cd $SHAREDDIR/Cian_sinmod/krill_sim/'
 alias ddev='cd $HOME/f90/krill_ibm/'
 alias dbas='cd $SHAREDDIR/Cian_sinmod/bash_scripts/'
 alias dsha='cd $SHAREDDIR/'

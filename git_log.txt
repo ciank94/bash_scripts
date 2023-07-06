@@ -1,4 +1,5 @@
-* 3ef431e (HEAD -> master, bash_scripts/master) Added search functions for files and text in sinmod (sfsin and stsin respectively
+* 4d3a04a (HEAD -> master, bash_scripts/master) Added bash aliases for directory shortcuts (dbas,dsha,ddev,dsim)
+* 3ef431e Added search functions for files and text in sinmod (sfsin and stsin respectively
 * 6c50e21 Capitalized readme
 * 9e9256c Added git remote add bash script and readme file
 * c3750b8 First version of search function for sinmod ssin
