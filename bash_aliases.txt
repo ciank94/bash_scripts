@@ -52,6 +52,8 @@ alias dsim='cd $SHAREDDIR/Cian_sinmod/krill_sim/'
 alias ddev='cd $HOME/f90/krill_ibm/'
 alias dbas='cd $SHAREDDIR/Cian_sinmod/bash_scripts/'
 alias dsha='cd $SHAREDDIR/'
+alias dcia='cd $SHAREDDIR/Cian_sinmod/'
+alias dtes='cd $SHAREDDIR/Cian_sinmod/krill_test/'
 
 #Aliases for compiling and copying the barents file, and simSettings file
 alias cbar='cp -i ~/f90/gin/obj/barent .'

@@ -36,7 +36,7 @@ Search results for text: '$pattern' in libf90:
 " > search_${pattern}.txt
    search_tex_libf90 >> search_${pattern}.txt
    echo "
-Search results for text: '$pattern' in libf90:
+Search results for text: '$pattern' in gin:
 " >> search_${pattern}.txt
    search_tex_gin >> search_${pattern}.txt
 elif [ "$savef" == n ]; then
@@ -46,7 +46,7 @@ Search results for text: '$pattern' in libf90:
     search_tex_libf90
 
     echo "
-Search results for text: '$pattern' in libf90:
+Search results for text: '$pattern' in gin:
 "
     search_tex_gin
 

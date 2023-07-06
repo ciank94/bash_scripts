@@ -10,8 +10,8 @@ echo "Enter name of bash script" #prompt user for filename
 read fname #read filename from user input (keyboard)
 echo "Type a short description of bash script"
 read fpurp
-touch $HOME/bash_scripts/$fname #Generate empty script
-file=$HOME/bash_scripts/$fname #set filename to variable file
+touch /cluster/projects/nn9828k/Cian_sinmod/bash_scripts/$fname #Generate empty script
+file=/cluster/projects/nn9828k/Cian_sinmod/bash_scripts/$fname #set filename to variable file
 chmod 755 $file #Set permissions open for all users
 time="$(date +"%x %r %Z")" #todays date and time
 
