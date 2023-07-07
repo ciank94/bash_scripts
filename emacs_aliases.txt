@@ -1,4 +1,4 @@
-;; key binding
+;; key binding for shell
 (global-set-key (kbd "C-z") 'shell)
 
 ;;Aliases based on functions below
@@ -22,8 +22,14 @@
   (insert "integer::")
   (backward-char 2))
 
+(defun wind ()
+  "Split the Emacs window into two, with one of them set to a shell."
+  (interactive)
+  (split-window-right)
+  (other-window 1)
+  (shell))
 
-
+;;Add path to packages for emacs
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
 
@@ -32,10 +38,7 @@
   (package-refresh-contents)
   (package-install 'use-package))
 
-
-
-
-
+;;Set the theme of emacs to zenburn
 (use-package zenburn-theme
 	     :ensure t
 	     :config
@@ -54,3 +57,5 @@
  ;; If there is more than one, they won't work right.
  )
 
+;;Hook that's run on startup of emacs
+(add-hook 'emacs-startup-hook 'wind)
