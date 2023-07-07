@@ -67,6 +67,8 @@ alias obash='emacs ~/.bashrc'
 alias sobash='source ~/.bashrc'
 alias cbash='cp ~/.bashrc . && mv -i .bashrc bash_aliases.txt'
 alias otrack='emacs ~/f90/gin/track.f90'
+alias oemac='emacs ~/.emacs'
+alias cemac='cp ~/.emacs . && mv -i .emacs emacs_bindings.txt'
 
 #Aliases for initiating interactive mode with variable time allocated
 alias int5='salloc --ntasks=1 --mem-per-cpu=4G --time=00:05:00 --qos=devel --account=nn9828k'

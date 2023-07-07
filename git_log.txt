@@ -1,4 +1,7 @@
-* 4d3a04a (HEAD -> master, bash_scripts/master) Added bash aliases for directory shortcuts (dbas,dsha,ddev,dsim)
+* ce383e3 (HEAD -> master, bash_scripts/master) Updated dates in bash scripts
+* 2dd4c5b minor fixes to bash
+* 68057aa Updated path for bash scripts- make sure this is correct for executable commands
+* 4d3a04a Added bash aliases for directory shortcuts (dbas,dsha,ddev,dsim)
 * 3ef431e Added search functions for files and text in sinmod (sfsin and stsin respectively
 * 6c50e21 Capitalized readme
 * 9e9256c Added git remote add bash script and readme file
