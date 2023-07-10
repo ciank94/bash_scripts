@@ -22,12 +22,12 @@
   (insert "integer::")
   (backward-char 2))
 
-(defun wind ()
-  "Split the Emacs window into two, with one of them set to a shell."
-  (interactive)
-  (split-window-right)
-  (other-window 1)
-  (shell))
+;(defun wind ()
+ ; "Split the Emacs window into two, with one of them set to a shell."
+  ;; (interactive)
+  ;; (split-window-right)
+  ;; (other-window 1)
+  ;; (shell))
 
 ;;Add path to packages for emacs
 (require 'package)
@@ -58,4 +58,4 @@
  )
 
 ;;Hook that's run on startup of emacs
-(add-hook 'emacs-startup-hook 'wind)
+;(add-hook 'emacs-startup-hook 'wind)

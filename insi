@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#File generated on 10.07.2023 by Cian Kelly (email:cianrkelly23@gmail.com)
+
+#Description:
+#A script that is used to initialize simulation settings using text replacements 
+
+#I should put this and the job script text editing in another bash script- create a general init_script that controls the job time
+str='\([0-9]\{4\}\),\([0-9]\{2\}\),\([0-9]\{2\}\)' #Look for date with yyyy,mm,dd
+initfile=$HOME/f90/krill_ibm/init_set.txt
+file=$HOME/f90/sinmod/simSettings.txt
+repst='2021,04,05' #Replace start string
+repen='2021,08,05' #Replace end string
+lines='3s'
+linee='4s'
+lnst='1p';lnen='2p'
+
+f1=$(sed -n $lnst $initfile) #Sets the variable equal to the standard output.
+f2=$(sed -n $lnen $initfile)
+#sed -n '/'$str'/p' $initfile
+#Search and replace strings in simSettings.txt
+sed -i $lines'/'$str'/'$f1'/' $file
+sed -i $linee'/'$str'/'$f2'/' $file
+
+#grep $str $initfile
+
