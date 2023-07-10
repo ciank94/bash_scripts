@@ -1,4 +1,6 @@
-* c25ad71 (HEAD -> master, bash_scripts/master) Added emacs aliases for fortran key binding (e.g. fimp)
+* 607e517 (HEAD -> master, bash_scripts/master) Added file insi that uses text replacement to initialize simulation settings
+* cdce2fb Updated emacs aliases with startup hook for windows
+* c25ad71 Added emacs aliases for fortran key binding (e.g. fimp)
 * ce383e3 Updated dates in bash scripts
 * 2dd4c5b minor fixes to bash
 * 68057aa Updated path for bash scripts- make sure this is correct for executable commands

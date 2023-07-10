@@ -6,7 +6,7 @@
 #Add remote directory to git remotes with a local name and the name on github
 
 #Declare variables
-echo "Enter name of personal remote repository"
+echo "Enter remote repository name"
 read n_remote
 echo "Enter local name"
 read n_local
