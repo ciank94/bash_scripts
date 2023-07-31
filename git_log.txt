@@ -1,4 +1,5 @@
-* 607e517 (HEAD -> master, bash_scripts/master) Added file insi that uses text replacement to initialize simulation settings
+* ed1f5fb (HEAD -> master, bash_scripts/master) Minor modifications
+* 607e517 Added file insi that uses text replacement to initialize simulation settings
 * cdce2fb Updated emacs aliases with startup hook for windows
 * c25ad71 Added emacs aliases for fortran key binding (e.g. fimp)
 * ce383e3 Updated dates in bash scripts
