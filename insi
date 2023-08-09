@@ -7,7 +7,7 @@
 
 #I should put this and the job script text editing in another bash script- create a general init_script that controls the job time
 initfile=$HOME/f90/krill_ibm/init_set.txt
-trackfile=$HOME/f90/krill_ibm/track.f90
+trackfile=$HOME/f90/krill_ibm/krill.f90
 file=$HOME/f90/sinmod/simSettings.txt
 
 f1=$(sed -n 1p $initfile) #Sets the variable equal to the standard output.
