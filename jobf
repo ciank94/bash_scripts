@@ -1,0 +1,32 @@
+#!/bin/bash
+
+#File generated on 03.11.2023 by Cian Kelly (email:cianrkelly23@gmail.com)
+
+#Description:
+#Use jobid to print information about a job and cancel single or multiple jobs. Edit text in job files depending on mode desired.
+squeue|grep ciank94f>filea
+#nl=wc -l filea|cut -c 1-2
+#echo "Options: 1) Cancel jobs, 2) Estimate time until job start"
+#read patt
+#if [ "$patt" == 1 ]; then
+    # while IFS="" read -r p|| [-n "$p"]
+    # do
+    # 	echo "$p">fileb
+    # 	id1=$(cut -c 12-21 fileb)
+    # 	echo "Jobid = '$id1'"
+    # done < filea
+ # echo "Cancel individual(type 1) or all (type 0)"
+ # read patt2
+ # if [ "$patt2" == 0 ]; then
+id1=$(cut -c 12-18 filea)
+echo "Cancelled '$id1'"
+     #echo "Job id = 'echo $id1|head -1'"
+scancel $id1
+ #elif [ "$patt2" == 1 ]; then  
+ #fi
+ 
+#fi
+
+
+    
+#scancel $id1
